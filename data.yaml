@@ -1,0 +1,14 @@
+path: ../data/dataset 
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Fire', 'Smoke']
+
+roboflow:
+  workspace: projects-pfw1p
+  project: forest-fire-detection-pctpi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-pfw1p/forest-fire-detection-pctpi/dataset/1
